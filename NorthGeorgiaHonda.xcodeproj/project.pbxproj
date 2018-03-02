@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		684122C92048DBFD00455EFE /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 684122C72048DBFD00455EFE /* Model.xcdatamodeld */; };
+		684122D72048E08600455EFE /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684122D62048E08600455EFE /* CustomerModel.swift */; };
+		68F1CBA120498B4C00C7AD6B /* RegistrationViewCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F1CBA020498B4C00C7AD6B /* RegistrationViewCustomer.swift */; };
+		AE9CC07120470CF5000C4A79 /* RegistrationViewCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CC07020470CF5000C4A79 /* RegistrationViewCarView.swift */; };
+		AE9CC07320471356000C4A79 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CC07220471356000C4A79 /* CarModel.swift */; };
+		AEEC2F142044676900D000D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2F132044676900D000D0 /* AppDelegate.swift */; };
+		AEEC2F162044676900D000D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2F152044676900D000D0 /* ViewController.swift */; };
+		AEEC2F192044676900D000D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEC2F172044676900D000D0 /* Main.storyboard */; };
+		AEEC2F1E2044676900D000D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEC2F1D2044676900D000D0 /* Assets.xcassets */; };
+		AEEC2F212044676900D000D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEC2F1F2044676900D000D0 /* LaunchScreen.storyboard */; };
+		AEEC2F2C2044676900D000D0 /* NorthGeorgiaHondaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2F2B2044676900D000D0 /* NorthGeorgiaHondaTests.swift */; };
+		AEEC2F372044676900D000D0 /* NorthGeorgiaHondaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2F362044676900D000D0 /* NorthGeorgiaHondaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEEC2F282044676900D000D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEC2F082044676900D000D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEC2F0F2044676900D000D0;
+			remoteInfo = NorthGeorgiaHonda;
+		};
+		AEEC2F332044676900D000D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEC2F082044676900D000D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEC2F0F2044676900D000D0;
+			remoteInfo = NorthGeorgiaHonda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		684122C82048DBFD00455EFE /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		684122D62048E08600455EFE /* CustomerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
+		68F1CBA020498B4C00C7AD6B /* RegistrationViewCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewCustomer.swift; sourceTree = "<group>"; };
+		AE9CC07020470CF5000C4A79 /* RegistrationViewCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewCarView.swift; sourceTree = "<group>"; };
+		AE9CC07220471356000C4A79 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		AEEC2F102044676900D000D0 /* NorthGeorgiaHonda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorthGeorgiaHonda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEC2F132044676900D000D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEEC2F152044676900D000D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEEC2F182044676900D000D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEEC2F1D2044676900D000D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEEC2F202044676900D000D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEEC2F222044676900D000D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEC2F272044676900D000D0 /* NorthGeorgiaHondaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorthGeorgiaHondaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEC2F2B2044676900D000D0 /* NorthGeorgiaHondaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthGeorgiaHondaTests.swift; sourceTree = "<group>"; };
+		AEEC2F2D2044676900D000D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEC2F322044676900D000D0 /* NorthGeorgiaHondaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorthGeorgiaHondaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEC2F362044676900D000D0 /* NorthGeorgiaHondaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthGeorgiaHondaUITests.swift; sourceTree = "<group>"; };
+		AEEC2F382044676900D000D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEEC2F0D2044676900D000D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC2F242044676900D000D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC2F2F2044676900D000D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEEC2F072044676900D000D0 = {
+			isa = PBXGroup;
+			children = (
+				AEEC2F122044676900D000D0 /* NorthGeorgiaHonda */,
+				AEEC2F2A2044676900D000D0 /* NorthGeorgiaHondaTests */,
+				AEEC2F352044676900D000D0 /* NorthGeorgiaHondaUITests */,
+				AEEC2F112044676900D000D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEEC2F112044676900D000D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC2F102044676900D000D0 /* NorthGeorgiaHonda.app */,
+				AEEC2F272044676900D000D0 /* NorthGeorgiaHondaTests.xctest */,
+				AEEC2F322044676900D000D0 /* NorthGeorgiaHondaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEEC2F122044676900D000D0 /* NorthGeorgiaHonda */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC2F132044676900D000D0 /* AppDelegate.swift */,
+				684122D62048E08600455EFE /* CustomerModel.swift */,
+				AE9CC07220471356000C4A79 /* CarModel.swift */,
+				68F1CBA020498B4C00C7AD6B /* RegistrationViewCustomer.swift */,
+				AEEC2F152044676900D000D0 /* ViewController.swift */,
+				AEEC2F172044676900D000D0 /* Main.storyboard */,
+				AE9CC07020470CF5000C4A79 /* RegistrationViewCarView.swift */,
+				AEEC2F1D2044676900D000D0 /* Assets.xcassets */,
+				AEEC2F1F2044676900D000D0 /* LaunchScreen.storyboard */,
+				AEEC2F222044676900D000D0 /* Info.plist */,
+				684122C72048DBFD00455EFE /* Model.xcdatamodeld */,
+			);
+			path = NorthGeorgiaHonda;
+			sourceTree = "<group>";
+		};
+		AEEC2F2A2044676900D000D0 /* NorthGeorgiaHondaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC2F2B2044676900D000D0 /* NorthGeorgiaHondaTests.swift */,
+				AEEC2F2D2044676900D000D0 /* Info.plist */,
+			);
+			path = NorthGeorgiaHondaTests;
+			sourceTree = "<group>";
+		};
+		AEEC2F352044676900D000D0 /* NorthGeorgiaHondaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC2F362044676900D000D0 /* NorthGeorgiaHondaUITests.swift */,
+				AEEC2F382044676900D000D0 /* Info.plist */,
+			);
+			path = NorthGeorgiaHondaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEEC2F0F2044676900D000D0 /* NorthGeorgiaHonda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEC2F3B2044676900D000D0 /* Build configuration list for PBXNativeTarget "NorthGeorgiaHonda" */;
+			buildPhases = (
+				AEEC2F0C2044676900D000D0 /* Sources */,
+				AEEC2F0D2044676900D000D0 /* Frameworks */,
+				AEEC2F0E2044676900D000D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NorthGeorgiaHonda;
+			productName = NorthGeorgiaHonda;
+			productReference = AEEC2F102044676900D000D0 /* NorthGeorgiaHonda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEEC2F262044676900D000D0 /* NorthGeorgiaHondaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEC2F3E2044676900D000D0 /* Build configuration list for PBXNativeTarget "NorthGeorgiaHondaTests" */;
+			buildPhases = (
+				AEEC2F232044676900D000D0 /* Sources */,
+				AEEC2F242044676900D000D0 /* Frameworks */,
+				AEEC2F252044676900D000D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEC2F292044676900D000D0 /* PBXTargetDependency */,
+			);
+			name = NorthGeorgiaHondaTests;
+			productName = NorthGeorgiaHondaTests;
+			productReference = AEEC2F272044676900D000D0 /* NorthGeorgiaHondaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEEC2F312044676900D000D0 /* NorthGeorgiaHondaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEC2F412044676900D000D0 /* Build configuration list for PBXNativeTarget "NorthGeorgiaHondaUITests" */;
+			buildPhases = (
+				AEEC2F2E2044676900D000D0 /* Sources */,
+				AEEC2F2F2044676900D000D0 /* Frameworks */,
+				AEEC2F302044676900D000D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEC2F342044676900D000D0 /* PBXTargetDependency */,
+			);
+			name = NorthGeorgiaHondaUITests;
+			productName = NorthGeorgiaHondaUITests;
+			productReference = AEEC2F322044676900D000D0 /* NorthGeorgiaHondaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEEC2F082044676900D000D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jani Virtanen (JJVIRT3136)";
+				TargetAttributes = {
+					AEEC2F0F2044676900D000D0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AEEC2F262044676900D000D0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AEEC2F0F2044676900D000D0;
+					};
+					AEEC2F312044676900D000D0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AEEC2F0F2044676900D000D0;
+					};
+				};
+			};
+			buildConfigurationList = AEEC2F0B2044676900D000D0 /* Build configuration list for PBXProject "NorthGeorgiaHonda" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEEC2F072044676900D000D0;
+			productRefGroup = AEEC2F112044676900D000D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEEC2F0F2044676900D000D0 /* NorthGeorgiaHonda */,
+				AEEC2F262044676900D000D0 /* NorthGeorgiaHondaTests */,
+				AEEC2F312044676900D000D0 /* NorthGeorgiaHondaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEEC2F0E2044676900D000D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC2F212044676900D000D0 /* LaunchScreen.storyboard in Resources */,
+				AEEC2F1E2044676900D000D0 /* Assets.xcassets in Resources */,
+				AEEC2F192044676900D000D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC2F252044676900D000D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC2F302044676900D000D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEEC2F0C2044676900D000D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC2F162044676900D000D0 /* ViewController.swift in Sources */,
+				684122D72048E08600455EFE /* CustomerModel.swift in Sources */,
+				68F1CBA120498B4C00C7AD6B /* RegistrationViewCustomer.swift in Sources */,
+				AE9CC07320471356000C4A79 /* CarModel.swift in Sources */,
+				AEEC2F142044676900D000D0 /* AppDelegate.swift in Sources */,
+				AE9CC07120470CF5000C4A79 /* RegistrationViewCarView.swift in Sources */,
+				684122C92048DBFD00455EFE /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC2F232044676900D000D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC2F2C2044676900D000D0 /* NorthGeorgiaHondaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC2F2E2044676900D000D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC2F372044676900D000D0 /* NorthGeorgiaHondaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEEC2F292044676900D000D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEC2F0F2044676900D000D0 /* NorthGeorgiaHonda */;
+			targetProxy = AEEC2F282044676900D000D0 /* PBXContainerItemProxy */;
+		};
+		AEEC2F342044676900D000D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEC2F0F2044676900D000D0 /* NorthGeorgiaHonda */;
+			targetProxy = AEEC2F332044676900D000D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEEC2F172044676900D000D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEC2F182044676900D000D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEEC2F1F2044676900D000D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEC2F202044676900D000D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEEC2F392044676900D000D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEEC2F3A2044676900D000D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEEC2F3C2044676900D000D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NorthGeorgiaHonda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Virtanen.NorthGeorgiaHonda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEEC2F3D2044676900D000D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NorthGeorgiaHonda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Virtanen.NorthGeorgiaHonda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEEC2F3F2044676900D000D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NorthGeorgiaHondaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Virtanen.NorthGeorgiaHondaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NorthGeorgiaHonda.app/NorthGeorgiaHonda";
+			};
+			name = Debug;
+		};
+		AEEC2F402044676900D000D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NorthGeorgiaHondaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Virtanen.NorthGeorgiaHondaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NorthGeorgiaHonda.app/NorthGeorgiaHonda";
+			};
+			name = Release;
+		};
+		AEEC2F422044676900D000D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NorthGeorgiaHondaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Virtanen.NorthGeorgiaHondaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NorthGeorgiaHonda;
+			};
+			name = Debug;
+		};
+		AEEC2F432044676900D000D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NorthGeorgiaHondaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Virtanen.NorthGeorgiaHondaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NorthGeorgiaHonda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEEC2F0B2044676900D000D0 /* Build configuration list for PBXProject "NorthGeorgiaHonda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC2F392044676900D000D0 /* Debug */,
+				AEEC2F3A2044676900D000D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEC2F3B2044676900D000D0 /* Build configuration list for PBXNativeTarget "NorthGeorgiaHonda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC2F3C2044676900D000D0 /* Debug */,
+				AEEC2F3D2044676900D000D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEC2F3E2044676900D000D0 /* Build configuration list for PBXNativeTarget "NorthGeorgiaHondaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC2F3F2044676900D000D0 /* Debug */,
+				AEEC2F402044676900D000D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEC2F412044676900D000D0 /* Build configuration list for PBXNativeTarget "NorthGeorgiaHondaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC2F422044676900D000D0 /* Debug */,
+				AEEC2F432044676900D000D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		684122C72048DBFD00455EFE /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				684122C82048DBFD00455EFE /* Model.xcdatamodel */,
+			);
+			currentVersion = 684122C82048DBFD00455EFE /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AEEC2F082044676900D000D0 /* Project object */;
+}
